@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap');
+
+
+.DetailContenedor {
+  margin-top: 96px;
+  font-family: 'Spectral SC', serif;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.BtnBack {
+  display: inline-block;
+  position: relative;
+  bottom: -16px;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  background: #e73f3f !important;
+  padding: 3px 10px !important;
+  color: #313136;
+  transition: none;
+  font-family: 'Spectral SC', serif;
+ font-size: 21px;
+  position: relative;
+  border-radius: 39px;
+  top: 125px;
+  right: 599px;
+}
+.BtnBack :hover {
+  color: #f54949;
+}
+.BtnBack span {
+  position: relative;
+  top: 3px;
+}
+
+.ImgDetailContainer {
+  position: absolute;
+  right: 0px;
+  top: 93px;
+  background-color: #ffffff;
+  padding-bottom: 74px;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 0.1px solid #313136;
+  margin-right: 17px;
+  margin-top: -71px;
+  box-shadow: 10px 7px 9px 6px rgba(0, 0, 0, 0.1);
+  right: 236px;
+}
+.ImgDetail {
+  border: 0.1px solid #313136;
+}
+.tachadebandera{
+  position: absolute;
+    top: -25px;
+    right: 214px;
+}
+.DetailCountry {
+  width: 250px;
+  margin-left: 400px;
+  margin-top: -84px;
+  background-color: #f54949;
+  box-shadow: 10px 7px 9px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+    left: -71px;
+    top: -16px;
+}
+.DetailCountryInside {
+  background-color: #e73f3f;
+  position: relative;
+  right: 6px;
+  top: -11px;
+}
+.Imgnote {
+  z-index: -1;
+  margin-right: 347px;
+  margin-top: -70px;
+}
+.Activities {
+  margin-top: 208px;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  margin-left: 34px;
+  gap: 20px;
+}
+.ContainerAct {
+  position: relative;
+  bottom: 188px;
+  box-shadow: 10px 7px 9px 6px rgba(0, 0, 0, 0.1);
+}
+.ContainerAct p {
+  font-size: 13px;
+}
+.ContainerActinside {
+  background-color: #e73f3f;
+  position: relative;
+  right: 6px;
+  top: -11px;
+
+  padding-top: 10px;
+}
+.ContainerAct {
+  background-color: #f54949;
+}
+.tacha{
+  position: relative;
+  top: -28px;
+}

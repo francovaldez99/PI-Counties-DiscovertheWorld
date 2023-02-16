@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap');
+
+.cardsContainer{
+    margin-top: 0;
+    margin-right: 138px;
+    margin-bottom: 48px;
+    margin-left: 138px;
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(5,1fr);
+    
+    
+}
+
+.sortContainer{
+    font-family: "Assistant", sans-serif;
+    color:#313136;
+}
+
+input[type="radio"] {
+    display: none;
+  }
+  label {
+    border-radius: 39px;
+    border:3px solid #e73f3f;
+    cursor: pointer;
+    margin: 4px;
+    padding: 3px;
+    text-transform: uppercase;
+    background-color: #ffff;
+  }
+
+  input[type="radio"]:checked+label{
+    background-color:#f54949 ;
+    color: #ffffff;
+}

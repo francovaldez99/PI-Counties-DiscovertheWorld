@@ -1,0 +1,30 @@
+.Paginacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Assistant", sans-serif;
+    margin-top: -57px;
+    position: absolute;
+    left: 43%;
+}
+.InputPaginado{
+    width: 26px;
+    background-color: transparent;
+}
+
+.BtnPaginacion{
+    position: relative;
+    bottom: -16px;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    background: #e73f3f !important;
+    padding: 3px 10px !important;
+    color: #313136;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+
+    
+}

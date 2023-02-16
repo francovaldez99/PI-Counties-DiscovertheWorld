@@ -1,0 +1,147 @@
+.NavTitle {
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    bottom: -16px;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    background: #e73f3f !important;
+    padding: 3px 10px !important;
+    color: #313136;
+    text-transform: uppercase;
+    transition: none;
+    font-family: "Assistant", sans-serif;
+    font-size: 36px;
+    margin-top: -10px;
+  }
+
+
+.Form{
+    margin: 156px;
+    margin-top: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 296px;
+    border: 1px solid #FFF6E9;
+    border-radius: 26px;
+
+}
+.SectionSelectCountry{
+    display: flex;
+}
+.FormOut{
+    margin: 156px;
+    margin-top: 10px;
+ 
+    background-color: #D9BF98;
+}
+.InputForm{
+    border: none;
+    margin-left: 54px;
+    border: none;
+    padding: 4px;
+    background: transparent;
+    display: inline-block;
+    height: 23px;
+    font-size: 21px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+}
+.LabelForm{
+    font-family: "Assistant", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  bottom: -3px;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  padding: 3px 10px !important;
+  color: #313136;
+  text-transform: uppercase;
+  transition: none;
+  font-family: "Assistant", sans-serif;
+  font-size: 21px;
+  left: 38px;
+}
+.Form button{
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    bottom: -16px;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    background: #e73f3f !important;
+    padding: 3px 10px !important;
+    color: #313136;
+    text-transform: uppercase;
+    transition: none;
+    font-family: "Assistant", sans-serif;
+    font-size: 21px;
+}
+.Form select{
+    color:#313136;
+}
+.BtnBack{
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    bottom: -16px;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    background: #e73f3f !important;
+    padding: 3px 10px !important;
+    color: #313136;
+    text-transform: uppercase;
+    transition: none;
+    font-family: "Assistant", sans-serif;
+    font-size: 21px;
+    position: relative;
+    top: 166px;
+    right: 457px;
+    border-radius: 39px;
+}
+
+.BtnBack :hover {
+    color: #f54949;
+  }
+  .FormBtnError{
+    display: inline-block;
+    position: relative;
+    bottom: -16px;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background: #e73f3f !important;
+    color: #313136;
+    font-family: "Assistant", sans-serif;
+    font-size: 14px !important;
+    height: 38px;
+    margin: 13px;
+    text-transform: none !important;
+}
+.SelectCountry{
+    color: #e73f3f;
+}
+.pErrors{
+    color: red;
+    font-size: 13px;
+    text-transform: lowercase;
+    text-decoration: underline;
+    position: relative;
+    left: -152px;
+    bottom: 19px;
+}
