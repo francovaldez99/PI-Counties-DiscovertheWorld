@@ -8,7 +8,7 @@ import { useState,useEffect } from "react";
 
 export const Cards = (props) => {
   const [state, setState] = useState({
-    sortContainer: "none"
+    sortOrder: "none"
   });
  
   useEffect(() => {
