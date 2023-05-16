@@ -13,7 +13,7 @@ export const UPDATE_CURRENT_PAGE="UPDATE_CURRENT_PAGE"
 export const getAllCountries = () => async (dispatch) => {
   //Tu código acá
   try {
-    let response = await axios.get("http://localhost:3001/countries");
+    let response = await axios.get("/countries");
     return dispatch({ type: GET_ALL_COUNTRIES, payload: response.data });
   } catch (error) {
     console.log(error);
@@ -24,16 +24,15 @@ export const getAllCountries = () => async (dispatch) => {
 export const getCountriesFilter = (data) => (dispatch) => {
   const { continent, subregion, difficulty, duration, season, name } = data;
   if (!name) {
-    return fetch(
-      `http://localhost:3001/countries/search?continent=${continent}&&subregion=${subregion}&&difficulty=${difficulty}&&duration=${duration}&&season=${season}`
+    return axios.get(
+      `/countries/search?continent=${continent}&&subregion=${subregion}&&difficulty=${difficulty}&&duration=${duration}&&season=${season}`
     )
-      .then((response) => response.json())
-      .then((data) => dispatch({ type: GET_FILTER_COUNTRIES_C, payload: data }))
+     
+      .then((response) => dispatch({ type: GET_FILTER_COUNTRIES_C, payload: response.data }))
       .catch((err) => console.log(err));
   } else {
-    return fetch(`http://localhost:3001/countries/search?name=${name}`)
-      .then((response) => response.json())
-      .then((data) => dispatch({ type: GET_FILTER_COUNTRIES_C, payload: data }))
+    return axios.get(`/countries/search?name=${name}`)
+      .then((response) => dispatch({ type: GET_FILTER_COUNTRIES_C, payload: response.data }))
       .catch((err) => console.log(err));
   }
 };
@@ -45,9 +44,8 @@ export const FinalFiltrado=data=>(dispatch)=>{
 
 
 export const getCountryDetail = (id) => (dispatch) => {
-  return fetch(`http://localhost:3001/countries/${id}`)
-    .then((response) => response.json())
-    .then((data) => dispatch({ type: GET_COUNTRY_DETAIL, payload: data }))
+  return axios.get(`/countries/${id}`)
+    .then((response) => dispatch({ type: GET_COUNTRY_DETAIL, payload: response.data }))
     .catch((err) => console.log(err));
 };
 
