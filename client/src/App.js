@@ -6,7 +6,7 @@ import CardDetail from './components/CardDetail';
 import Form from './components/Form';
 import { useState } from 'react';
 import axios from 'axios';
-axios.defaults.baseURL = "http://localhost:3001"
+axios.defaults.baseURL = "https://discoverthewolrdapi.onrender.com"
 function App() {
   const location = useLocation();
   const [porPagina, SetPorPagina] = useState(10);
