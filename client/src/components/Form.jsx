@@ -94,7 +94,7 @@ export const Form = (props) => {
    }else{
     console.log(form);
  axios
-      .post("http://localhost:3001/activities", form)
+      .post("/activities", form)
       .then((res) => alert("Actividad Creada Exitosamente"))
       .catch((err) => alert(err));
   

@@ -13,6 +13,8 @@ const navigate = useNavigate();
 
   useEffect(()=>{
     props.getCountryDetail(countryId)
+
+    
   },[])
 
   const handleBtnBack=()=>{
