@@ -11,7 +11,7 @@ const sequelize = new Sequelize(
     native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   }
 );
-
+console.log(DB_DEPLOY);
 // const sequelize = new Sequelize(
 //   DB_DEPLOY,
 //   {
